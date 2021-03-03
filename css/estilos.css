@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #ffffff;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 18px;
+	background-color: #B8F3FF;
+	background-image: url("../img/silueta.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment:fixed;
+	background-size: cover;
+	margin: 50px 50px 50px 100px;
+}
+
+h1 {
+	color: #FF00BE;
+	font-family: 'Allura', cursive;
+	font-size: 100px;
+	/* font-family: "FuenteEspecial"; */
+}
+
+h2 {
+	font-family: "FuenteNormal";
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	/** font-family: "FuenteNormal"; */
+}
+
+
+@font-face {
+	font-family: "FuenteEspecial";
+	src: url( "../fonts/BebasNeue-Regular.woff2"),
+		 url("../fonts/BebasNeue-Regular.woff"),
+		 url("../fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+	font-family: "FuenteNormal";
+	src: url("../fonts/RobotoSlab-Regular.ttf");
+}
+
+
+
+
