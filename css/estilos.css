@@ -22,12 +22,22 @@ h1 {
 }
 
 h2 {
+
 	font-family: "FuenteNormal";
+}
+
+h5 {
+	color: #2B2B2B;
+	font-size: 38px;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
 	/** font-family: "FuenteNormal"; */
+}
+
+b {
+	font-size: 20px;
 }
 
 
@@ -43,6 +53,54 @@ p {
 	src: url("../fonts/RobotoSlab-Regular.ttf");
 }
 
+.importante {
+	color: #000000
+}
 
 
+.cabecera {
+	background-color: hsla(0,0%,100%,0.72);
+	background-image: url("../img/lirios.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	padding: 20px;
+	font-size: 60%;
+	text-align: center;
+}
 
+
+.contenido1 {
+	color: black;
+	font-size: 22px;
+	background-color: hsla(0,0%,100%,0.72);
+	padding: 100px 20px 100px 20px;
+	text-align: center;
+}
+
+.contenido2 {
+	color: #ffffff;
+	background-color: hsla(0,0%,100%,0.72);
+	background-image: url("../img/textura.jpg");
+	background-repeat: no-repeat;
+	background-position:left;
+	background-attachment:scroll;
+	background-size:cover;
+
+	padding:  100px 250px 100px 250px;
+	text-align: center;
+
+
+}
+
+.pie-de-pagina {
+	color: #FFFFFF;
+	background-color: hsla(209,100%,31%,1.00);
+	padding: 50px 50px 50px 50px;
+	text-align: center;
+}
+
+.azul {
+	color: hsla(209,99%,50%,1.00);
+}
